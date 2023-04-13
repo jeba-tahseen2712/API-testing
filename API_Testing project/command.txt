@@ -1,0 +1,6 @@
+newman run “Collection Link” -e EnvironmentName.json -r cli,html
+newman run “Collection Link” -e EnvironmentName.json -r cli,htmlextra
+
+newman run API_Exam.postman_collection.json -e Exam.postman_environment.json
+newman run API_Exam.postman_collection.json -e Exam.postman_environment.json -r cli,html
+newman run API_Exam.postman_collection.json -e Exam.postman_environment.json -r cli,htmlextra
